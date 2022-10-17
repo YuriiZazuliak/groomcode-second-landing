@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  max-width: 1176px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
