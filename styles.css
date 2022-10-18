@@ -5,7 +5,7 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,19 +17,22 @@ body {
 .price-card-wrap {
   display: flex;
   flex: 1;
+  flex-wrap: wrap;
   max-width: 1176px;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
 }
 
 .price-card {
   flex: 1 1;
   max-width: 380px;
+  min-width: 250px;
   padding-bottom: 40px;
   background-color: rgb(51, 66, 71);
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   position: relative;
   overflow: hidden;
+  margin: 9px;
 }
 .price-card__title, .price-card__price, .price-card__description, .price-card__order-btn, .price-card__popular {
   display: block;
