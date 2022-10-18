@@ -1,0 +1,96 @@
+.price-card {
+    flex: 1 1;
+    max-width: 380px;
+    padding-bottom: 40px;
+    background-color: $item-background-color;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+
+    &__title,
+    &__price,
+    &__description,
+    &__order-btn {
+        display: block;
+        font-weight: 700;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 35px;
+        line-height: 43px;
+        padding: 33px 0;
+    }
+
+    &__title-sub {
+        display: block;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    &__price {
+        font-size: 55px;
+        line-height: 67px;
+        width: 100%;
+        padding: 19px 0;
+    }
+
+    &__description {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        max-width: 327px;
+        margin-top: 40px;
+    }
+
+    &__options-list {
+        margin-top: 40px;
+        margin-bottom: 39px;
+        padding: 0;
+    }
+
+    &__options-list-item {
+        display: block;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        padding: 16px 0;
+
+        svg {
+            display: inline-block;
+            margin: 0 22px;
+        }
+    }
+
+    &__options-list-item:nth-child(odd) {
+        background-color: $item-odd-list-color;
+    }
+
+    &__order-btn {
+        width: 154px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: white;
+        border: none;
+        border-radius: 20px;
+
+    }
+}
+
+.first-card {
+    background-color: $first-block-color;
+    fill: $first-block-color;
+}
+
+.second-card {
+    background-color: $second-block-color;
+    fill: $second-block-color;
+}
+
+.third-card {
+    background-color: $thirt-block-color;
+    fill: $thirt-block-color;
+}
