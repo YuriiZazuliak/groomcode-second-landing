@@ -4,11 +4,14 @@
     padding-bottom: 40px;
     background-color: $item-background-color;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    position: relative;
+    overflow: hidden;
 
     &__title,
     &__price,
     &__description,
-    &__order-btn {
+    &__order-btn,
+    &__popular {
         display: block;
         font-weight: 700;
         text-align: center;
@@ -76,6 +79,22 @@
         color: white;
         border: none;
         border-radius: 20px;
+    }
+
+    &__popular {
+        position: absolute;
+        width: 147px;
+        font-size: 14px;
+        line-height: 25px;
+        text-transform: uppercase;
+        background: #DC3F45;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        top: 30px;
+        right: -31px;
 
     }
 }
